@@ -38,8 +38,12 @@
 }
 
 .center{
-  position: absolute;
-  left: 33%;
-  right: 50%;
-  transform: translate(0%,0%);
+  display: flex;
+  justify-content: center;
+}
+
+.heading{
+  border-bottom: 1px solid #8884d8;
+  box-shadow: 0px 2px 2px 1px #aaa7ed;
+  color: #8884d8;
 }
